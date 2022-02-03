@@ -24,11 +24,11 @@ const fillData = (data) => {
     let image = json.sprites.other.dream_world.front_default;
     html += '<div class="col">';
     html += '<div class="card h-100">';
-    html += '<div class="card-body">';
-    html += `<h5 class="card-title">${p.name}</h5>`;
+    html += '<div class="card-body bg-secondary">';
+    html += `<h5 class="border bg-warning p-3">Nombre: ${p.name}</h5>`;
     html += `<h5 class="card-title">Altura: ${json.height}</h5>`;
     html += `<h5 class="card-title">Peso: ${json.weight}</h5>`;
-    html += `<img src="${image}" class="card-img-top" alt="...">`;
+    html += `<img src="${image}" class="border bg-primary card-img-top" alt="...">`;
     html += "</div>";
     html += "</div>";
     html += "</div>";
